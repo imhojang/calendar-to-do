@@ -1,0 +1,146 @@
+html, body {
+  box-sizing: border-box;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #2574D0;
+}
+
+img, #border, h1 {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+#border {
+  width: 450px;
+  height: 220px;
+  padding: 10px;
+  border: solid black 2px;
+}
+
+#selectDay {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#rightCal {
+  float: right;
+  width: 220px;
+  height: 200px;
+}
+
+#day {
+  font-size: 20px;
+}
+
+#date {
+  display: block;
+  font-size: 90px;
+  font-weight: bold;
+  margin: 50px;
+}
+
+td {
+  padding: 2px 5px;
+}
+
+button {
+  background-color: white;
+  border: none;
+}
+
+#currMonYear {
+  display: inline-block;
+  width: 150px;
+}
+
+#calendar {
+  margin-top: 10px;
+}
+
+#listborder {
+  margin: 0 auto;
+  width: 450px;
+  height: 600px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.bullet {
+  border: 1px solid gray;
+  border-top: none;
+  display: block;
+  width: 450px;
+  height: 50px;
+  /* text-align: center; */
+  line-height: 50px;
+}
+
+.boxes {
+  display: inline-block;
+  margin: 13px;
+}
+
+.eachItems {
+  display: inline-block;
+  width: 380px;
+  color: black;
+  font-size: 20px;
+  border: none;
+}
+
+.xBtn {
+  display: inline-block;
+  color: coral;
+  font-size: 20px;
+}
+
+#textInput {
+  width: 450px;
+  height: 50px;
+  border: 1px solid grey;
+  padding-left: 35px;
+  font-size: 20px;
+}
+
+input[type='text'] {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#listBtns {
+  display:block;
+  color: grey;
+}
+
+#listBtns button {
+  float: right;
+  color: grey;
+  border-radius: 7px;
+  
+}
+p {
+  width: 130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#checkAll {
+  display: none;
+  position: absolute;
+  margin: 20px 15px;
+  left: 217px;
+
+}
